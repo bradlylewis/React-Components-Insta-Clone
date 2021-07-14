@@ -12,7 +12,8 @@ import dummyData from './dummy-data' // Import the dummyData
 import './App.css';
 
 const App = () => {
-  const [posts, setPosts] = useState(dummyData) // Create a state called `posts` to hold the array of post objects, **initializing to dummyData**.
+  const [posts, setPosts] = useState(dummyData)
+   // Create a state called `posts` to hold the array of post objects, **initializing to dummyData**.
   // To make the search bar work (which is stretch) we'd need another state to hold the search term.
 
   const likePost = postId => {
